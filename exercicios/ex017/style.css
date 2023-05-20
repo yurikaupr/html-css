@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(56, 199, 56) 50%, green 50%);
+}
+
+h1{
+color: rgba(0, 0, 0, 0.744);
+
+}
+
+h1#primeiro{
+
+    color: white;
+    text-align: center;
+
+}
+
+h2{
+color: rgba(66, 123, 66, 0.744);
+
+}
+div > a{
+    display: none;
+    color: rgb(163, 68, 68);
+}
+
+div:hover > a{
+    display: block;
+    
+}
+
+div:hover > h1{
+    display: block;
+    color: whitesmoke;
+}
+
+a:visited{
+    color: aliceblue;
+
+}
+a{
+    text-decoration: none;
+
+}
+a:active{
+    background-color: rgb(189, 189, 189);
+    color: rgb(186, 79, 79);
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 1px 1px 15px rgb(0, 191, 255);
+    width: 500px;
+    
+}
+a:hover{
+    background-color: aquamarine;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 1px 1px 15px red;
+    width: 250px;
+}
+.primeiro{
+    color: brown;
+}
+.primeiro:hover{
+    color: blue;
+}
+.button:hover{
+    color: Red;
+    background-color: blue;
+}
+button:active{
+    color: blue;
+    background-color: red;
+}
+.button{
+    color: yellowgreen;
+    background-color: black;
+}
